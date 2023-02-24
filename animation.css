@@ -89,3 +89,23 @@
     100% {rotate:0}
 }
 /* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: back-forth-top;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: back-forth-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes back-forth-top {
+    0% {translate: 0;}
+    50% {translate: 100px;}
+    100% {translate: 0;}
+}
+@keyframes back-forth-down {
+    0% {translate: 0;}
+    50% {translate: -80px;}
+    100% {translate: 0;}
+}
