@@ -36,3 +36,56 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+/* Esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+/* Esercizio 7 */
+.ex-7-img {
+    transition: 3s;
+}
+.ex-7-img:hover {
+    filter: hue-rotate(90deg) saturate(500%);
+}
+/* Esercizio 8 */
+.ex-8-img {
+    transition: 3s;
+}
+.ex-8-img:hover {
+    filter: blur(5px) sepia(80%);
+    border-radius: 30%;
+}
+/* Esercizio 9 */
+.ex-9-img {
+    transition: 3s;
+}
+.ex-9-img:hover {
+    filter: invert(75%) sepia(80%);
+    border-radius: 50%;
+    transform: scale(1.5);
+    transform: rotate();
+}
+/* Esercizio 10 */
+.ex-10-icon {
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes spin {
+    from {rotate: 0;}
+    to {rotate: 360deg;}    
+}
+/* Esercizio 11 */
+.ex-11-icon {
+    animation-name: spin-back;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes spin-back {
+    0% {rotate: 0;}
+    75% {rotate: 270deg;}
+    100% {rotate:0}
+}
+/* Esercizio 12 */
