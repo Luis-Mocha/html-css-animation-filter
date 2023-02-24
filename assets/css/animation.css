@@ -85,7 +85,7 @@
 }
 @keyframes spin-back {
     0% {rotate: 0;}
-    75% {rotate: 270deg;}
+    80% {rotate: 270deg;}
     100% {rotate:0}
 }
 /* Esercizio 12 */
